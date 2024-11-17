@@ -1,0 +1,22 @@
+
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.head{
+    font-size: 2rem;
+}
+
+
+.cards{
+    width: 32%;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 20px;
+    /* margin-top: 10px; */
+}
