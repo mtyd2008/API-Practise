@@ -14,7 +14,7 @@ fetch("https://dummyjson.com/products")
             <h1>${item.title}</h1>
             <p>${item.description.slice(1,20)}....</p>
             <p>Price:$${item.price}</p>
-            <button onclick="showmore(${item.id})">See More</button>
+            <button class="btn btn-primary" onclick="showmore(${item.id})">See More</button>
         </div>`
     })
     

@@ -1,6 +1,7 @@
 
 .container{
     display: flex;
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -14,9 +15,10 @@
 
 
 .cards{
-    width: 32%;
+    width: 30%;
     border: 2px solid black;
     border-radius: 12px;
     padding: 20px;
     /* margin-top: 10px; */
 }
+
