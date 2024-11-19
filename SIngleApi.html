@@ -48,7 +48,7 @@
 
 </head>
 <body>
-    <h1 class="d-flex justify-content-center mt-1 p-2 bg-dark text-white head">Single Product</h1>
+    <h1 class="d-flex justify-content-center mt-2 p-2 bg-dark text-white head">Single Product</h1>
 
     <div class="container"></div>
 
@@ -62,7 +62,7 @@
         const div = document.querySelector(".container")
 
         const data = localStorage.getItem("id")
-        // console.log(data);   
+        console.log(data);   
 
         fetch(`https://dummyjson.com/products/${data}`)
         .then((res)=> res.json())
@@ -78,6 +78,8 @@
                 <p>Brand:${res.brand}</p>
                 <p>Stock:${res.stock}</p>
                 <p>Price:$${res.price}</p>
+                <p>weigth:${res.weight}</p>
+                <p>Warranty:${res.warrantyInformation}</p>
                 </div>`
         })
         .catch(err=>console.log(err));
