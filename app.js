@@ -24,7 +24,7 @@ fetch("https://dummyjson.com/products")
 
 
 function showmore(id){
-    window.location = "SingleApi.html"
+    window.location = "Singleproduct.html"
     localStorage.setItem("id" , id)
     // console.log(id);
     
